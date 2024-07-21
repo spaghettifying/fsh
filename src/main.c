@@ -167,7 +167,6 @@ int fsh_ls(char **args) {
 
 int fsh_jotter(char **args) { // works but not with folders
     printf("%s\n", args[1]);
-//    execl("/home/adam/CLionProjects/Jotter/jotter", args[1]);
 
     return 1;
 }
